@@ -1,0 +1,99 @@
+.hero{
+   position: relative;
+}
+h1{
+    color:white;
+    position:absolute;
+    top: 40%;
+    text-align:center
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.nav{
+    color: white;
+    position: absolute;
+    top:5px;
+    bottom:unset;
+    left:unset;
+    right:20px
+
+}
+.nav ul{
+    width: 400px;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    gap: 30px;
+    left:unset;
+    right:20px
+    
+}
+.nav li a{
+    color:white;
+}
+main{
+    margin-top: 5px;
+    display:flex;
+    flex-direction: row;
+}
+
+.date{
+    width:80%;
+    border: 2px solid gray;
+    margin: 50px auto;
+    background:lightgray;
+    padding-left:10px;
+}
+.poster h2{
+    font-size:large;
+}
+.poster img{
+    width: 100%;
+    height: auto;
+}
+.poster{
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom:50px;
+    padding-left:12%;
+}
+.buttons{
+    margin-top:10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:20%;
+    margin-left:70%;
+    height:100%;
+    position: absolute;
+    
+}
+button{
+    height:40px;
+    border-radius:0%;
+    width:150px;
+    background-color:orange;
+    color:white;
+}
+.show_info{
+    position:relative;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:black;
+    color:white;
+    padding-left:10%;
+    padding-right:20%
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left:25px;
+}
