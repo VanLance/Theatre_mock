@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .hero{
-   position: relative;
+    position: relative;
    color:white
 }
 .hero h2{
@@ -83,7 +83,7 @@ main{
     justify-content: space-between;
     width:20%;
     margin-left:70%;
-    height:190%;
+    height:60%;
     position: absolute;
 }
 button{
@@ -93,6 +93,15 @@ button{
     background-color:orange;
     color:white;
 }
+@media screen and (max-width: 740px){
+    
+    button{
+        height:30px;
+        width:100px;
+        margin-left:10%;
+    }
+}
+
 .show_info{
     position:relative;
 }
